@@ -16,7 +16,3 @@ A collection of things that I'd like to do:
 
 Run `sbcl --load build.lisp` to get things going. Not sure to do after that
 because it's not made yet.
-
-## License
-
-MIT Open Source licensed. Refer to `LICENSE` file for more details.
