@@ -1,0 +1,7 @@
+# ignore compiled application
+bokbok
+
+# ignore the Ryu spritesheet I'm testing with but I can't use because copyright
+res/02_Ryu
+
+.DS_store

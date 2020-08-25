@@ -1,0 +1,45 @@
+* bokbok
+
+It's like [[https://github.com/crockeo/bok][bok]] except it's using a LISP 2 instead of a LISP 1...so bokbok?
+
+** Live Editing
+
+In order to live edit, you need to:
+
+#+BEGIN_SRC bash
+# start bokbok in a terminal window
+make run
+#+END_SRC
+
+Within emacs, then you need to run ~slime-connect~ and choose the default
+arguments:
+
+- Host: ~localhost~
+- Port: ~4005~
+
+Then you should have your SDL2 window open AND also have
+
+** Implementation Plan
+
+- [-] SDL proof-of-concept
+  - [X] Window system
+  - [X] Event system (responding to keyboard)
+  - [ ] Blitting a texture on screen
+- [X] SDL REPL
+  - [X] Updates to SBCL iterative compilation => changes to SDL window
+  - [X] Continuation on exception (resume SDL state from before the exception
+    occurred)
+- [-] Building
+  - [X] Build an executable for local machine
+  - [ ] Static linked executable
+  - [ ] Cross-compiled static linked executable
+- [ ] ???
+  - Actually do something with this technology
+
+** License and Attributions
+
+MIT Open Source licensed. Refer to the ~LICENSE~ file for more details.
+
+*** Attributions
+
+- [[https://opengameart.org/content/fighting-robot-for-ultimate-smash-friends][robosheep.bmp]] Stephen Challener (Redshrike), hosted by OpenGameArt.org
