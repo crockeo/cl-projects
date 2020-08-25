@@ -22,6 +22,28 @@ A collection of exercises written while reading [Practical Common
 Lisp](http://www.gigamonkeys.com/book/). It's a great book, by the way. Read it
 if you haven't.
 
+## Planned Projects
+
+This section contains projects that I haven't actually begun, but I want to do
+40% of before getting bored and abandoning them.
+
+### Vulkan
+
+* [learn cffi](https://common-lisp.net/project/cffi/manual/cffi-manual.html#Tutorial)
+* make basic Vulkan bindings (cffi exercise!)
+* [follow tutorial](https://vulkan-tutorial.com/)
+
+### Client-Definition Library
+
+Take learnings from `cl-monthly-playlist` and apply it to other places. Make a
+library to easily spec an API.
+
+Apply this to certain places:
+
+* Finish Spotify wrapper
+* Make a better GH wrapper
+* Other things too!
+
 ## Dependencies
 
 Each of these projects were written using SBCL 2.0.7. No promises about
